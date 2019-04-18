@@ -1,0 +1,44 @@
+button {
+	border-radius: 30px;
+	height: 60px;
+	width: 60px;
+	border: 1px solid black;
+	margin: 5px;
+}
+#zero {
+	width: 130px;
+}
+#top {
+	height: 80px;
+	width: 295px;
+	background-color: lightsalmon;
+}
+#display {
+	float: right;
+	font-size: 60px;
+	text-align: right;
+	padding: 5px;
+}
+#main {
+	background-image: -moz-linear-gradient(
+		to bottom right,
+		lightgreen,
+		lightblue
+	);
+	background-image: -webkit-linear-gradient(
+		to bottom right,
+		lightgreen,
+		lightblue
+	);
+	background-image: linear-gradient(to bottom right, lightgreen, lightblue);
+	width: 295px;
+}
+.numbers {
+	background-color: gold;
+}
+.functions {
+	background-color: chartreuse;
+}
+.operator {
+	background-color: orchid;
+}
